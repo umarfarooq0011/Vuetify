@@ -34,5 +34,12 @@ export const useTodoStore = defineStore('todo', () => {
     }
   }
 
-  return { todos, addTodo, removeTodo, editTodo, completeTodo }
+  // REMOVE ALL TODOS
+   function clearTodos() {
+    todos.value = []
+   }
+
+
+
+  return { todos, addTodo, removeTodo, editTodo, completeTodo, clearTodos }
 })

@@ -9,5 +9,5 @@
 </template>
 
 <script setup>
-// We will import other components here later
+
 </script>
