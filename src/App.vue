@@ -1,14 +1,14 @@
 <template>
-  <VApp>
-      <Sidebar />
-      <VMain>
-         <!-- cards -->
-      </VMain>
-   </VApp>
+ <v-app>
+  <v-main>
+    <Todo-s  />
+  </v-main>
+ </v-app>
 </template>
 
 <script setup>
-import Sidebar from './components/Side-bar.vue'
+import TodoS from './components/Todo-s.vue';
+
 
 
 </script>
